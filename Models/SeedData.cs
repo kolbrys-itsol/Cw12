@@ -26,6 +26,7 @@ namespace MvcMovie.Models
                         Title = "When Harry Met Sally",
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Genre = "Romantic Comedy",
+                        Rating = "M",
                         Director = "Borubar"
                     },
 
@@ -34,6 +35,7 @@ namespace MvcMovie.Models
                         Title = "Ghostbusters ",
                         ReleaseDate = DateTime.Parse("1984-3-13"),
                         Genre = "Comedy",
+                        Rating = "S",
                         Director = "Leszek"
                     },
 
@@ -42,6 +44,7 @@ namespace MvcMovie.Models
                         Title = "Ghostbusters 2",
                         ReleaseDate = DateTime.Parse("1986-2-23"),
                         Genre = "Comedy",
+                        Rating = "R",
                         Director = "Korwin"
                     },
 
@@ -50,6 +53,7 @@ namespace MvcMovie.Models
                         Title = "Rio Bravo",
                         ReleaseDate = DateTime.Parse("1959-4-15"),
                         Genre = "Western",
+                        Rating = "C",
                         Director = "Mietek"
                     }
                 );
